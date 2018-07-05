@@ -4,18 +4,29 @@ return chocolateBars
 function addElementToBeginningOfArray(array, element) {
   return [element, ...array];
 }
+
 function destructivelyAddElementToBeginningOfArray(array, element) {
  array.unshift(element);
 return array
 }
 
-function addElementToEndOfArray() 
+function addElementToEndOfArray(array, element) {
+  addElementToEndOfArray.push(element)
+return array
+}
 
-var destructivelyAddElementToEndOfArray = []
+function destructivelyAddElementToEndOfArray(array, element) {
+  return array
+}
 
-var accessElementInArray = ['Hugh Laurie', 'Damian Lewis', 'Angelina Jolie'];
-return (acessElementInArray[0])
+function accessElementInArray() {
+return 
+}
 
-var destructivelyRemoveElementFromBeginningOfArray = ['a', 'b', 'c']
+function destructivelyRemoveElementFromBeginningOfArray() { 
 return destructivelyRemoveElementFromBeginningOfArray('a')
-var removeElementFromBeginningOfArray = ['q', 'w','e']
+}
+
+function removeElementFromBeginningOfArray() {
+  return
+}
