@@ -30,3 +30,8 @@ return
 function removeElementFromBeginningOfArray(array) {
   return
 }
+
+function removeElementFromEndOfArray(array) {
+  return 
+}
+}
