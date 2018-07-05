@@ -11,11 +11,11 @@ return array
 }
 
 function addElementToEndOfArray(array, element) {
-  addElementToEndOfArray.push(element)
-return array
+  return [array, element]
 }
 
 function destructivelyAddElementToEndOfArray(array, element) {
+  array.push(element)
   return array
 }
 
