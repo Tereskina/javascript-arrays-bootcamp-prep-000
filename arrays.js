@@ -4,10 +4,13 @@ return chocolateBars
 function addElementToBeginningOfArray(array, element) {
   return [element, ...array];
 }
-function destructivelyAddElementToBeginningOfArray()
+function destructivelyAddElementToBeginningOfArray(array, element) {
+ array.unshift(element);
+return array
+}
 
-var addElementToEndOfArray = ['bread', 'butter']
-addElementToEndOfArray.push('cheese')
+function addElementToEndOfArray() 
+
 var destructivelyAddElementToEndOfArray = []
 
 var accessElementInArray = ['Hugh Laurie', 'Damian Lewis', 'Angelina Jolie'];
