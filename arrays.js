@@ -3,6 +3,10 @@ return chocolateBars
 
 var addElementToBeginningOfArray = ['tea', 'sugar']
 addElementToBeginningOfArray.unshift('water')
+
+function addElementToBeginningOfArray(array, element) {
+  return [element, ...array];
+}
 var destructivelyAddElementToBeginningOfArray = destructivelyAddElementToBeginningOfArray.slice(1)
 
 var addElementToEndOfArray = ['bread', 'butter']
